@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vw;
+    margin: 0;
+    background-color: #4fbcdd;
+}
+
+.caixa {
+    width: 120%;
+    max-width: 1000px;
+    background-color: #e6f0f2;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    position: relative;
+}
+
+.titulo::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 5px;
+    background-color: #b83d3b;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.instrucao {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.botao {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #d1e2e6;
+    border: 2px solid #b3c2c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+.botao:hover {
+    background-color: #c0d1d4;
+    border-color: #6c7377;
+    transform: translateY(-5.3px);
+}
+
+.botao.destaque {
+    background-color: #add8e6;
+    border: 2px solid #87ceeb;
+}
+
+.texto-botao {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.icones-sociais {
+    font-size: 1.5em;
+    color: #474646;
+    text-decoration: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #777;
+}
+
+footer div a {
+    font-size: 1.7rem;
+}
+
+footer div p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+footer p {
+    padding: 10px 0 0 0;
+    font-size: 1.2rem;
+}
+
