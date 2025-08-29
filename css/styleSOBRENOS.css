@@ -1,9 +1,9 @@
 :root {
     --cor-fundo: #fefefe; 
     --cor-texto: #444; 
-    --cor-destaque: #135f8b; 
-    --fonte-escrita: 'Caveat', cursive; 
-    --fonte-principal: 'Roboto', sans-serif;
+    --cor-destaque: #1870a3; 
+    --fonte-escrita: cursive; 
+    --fonte-principal: sans-serif;
 }
 
 body {
@@ -78,15 +78,12 @@ li {
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
     margin-top: 20px;
 
 }
 
-.botao-contato:hover {
-    background-color: #A0522D;
-}
-
-section.secao-conteudo p.botao{
+section.secao-conteudo p{
     text-align: center;
 }
+
+
