@@ -1,77 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f8ff;
-    color: #333;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
 }
 
-header {
-    background: #1e90ff;
-    color: white;
-    padding: 20px;
-    text-align: center;
+.recipiente {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.cabecalho {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    background: #4682b4;
-    padding: 8px 15px;
-    border-radius: 5px;
+.cabecalho h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-nav ul li a:hover {
-    background: #87cefa;
+.cabecalho p {
+  font-size: 1.2rem;
+  opacity: 0.9;
 }
 
-section {
-    padding: 20px;
-    margin: 20px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+.navegacao {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-section h2 {
-    color: #1e90ff;
+.navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+.navegacao li {
+  margin: 0 1rem;
 }
 
-form input, form textarea, form button {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+.navegacao a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
 }
 
-form button {
-    background: #1e90ff;
-    color: white;
-    border: none;
-    cursor: pointer;
+.navegacao a:hover {
+  background-color: #667eea;
+  color: white;
 }
 
-form button:hover {
-    background: #4682b4;
+.secao {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
 }
 
-footer {
-    text-align: center;
-    background: #1e90ff;
-    color: white;
-    padding: 15px;
-    margin-top: 20px;
+.secao-alternativa {
+  background-color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #667eea;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #764ba2;
+}
+
+.introducao {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  color: #666;
+}
+
+.grade-sintomas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cartao-sintoma {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #667eea;
+}
+
+.lista-dicas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.item-dica {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #764ba2;
+}
+
+.numero-dica {
+  background: #667eea;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.container-beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.item-beneficio {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icone-beneficio {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.estatisticas {
+  background: #667eea;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.grade-estatisticas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.item-estatistica h3 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.ajuda-emergencia {
+  background: #ff6b6b;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.ajuda-emergencia h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.grade-recursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cartao-recurso {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.rodape {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+
+.conteudo-rodape {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.destaque {
+  background: #fff3cd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .cabecalho h1 {
+    font-size: 2rem;
+  }
+
+  .navegacao ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navegacao li {
+    margin: 0.5rem 0;
+  }
+
+  .container-beneficios {
+    flex-direction: column;
+  }
 }
