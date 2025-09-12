@@ -68,7 +68,7 @@ body {
     align-items: center;
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.8s, border-color 0.8s;
     text-decoration: none;
     color: #333;
     padding: 10px;
