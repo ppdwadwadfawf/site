@@ -27,7 +27,6 @@ body {
 }
 
 h1 {
-    font-family: var(--fonte-escrita);
     font-size: 3.5rem;
     color: var(--cor-destaque);
     margin-bottom: 5px;
