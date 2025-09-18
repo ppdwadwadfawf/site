@@ -18,10 +18,7 @@ section.cabecalho h1 {
   font-weight: bold;
 }
 
-section.cabecalho p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
+
 
 section.introducao {
   background: #ffffff;
@@ -101,12 +98,10 @@ section.sintomas .grupo-sintomas {
   padding: 2rem;
   border-radius: 10px;
   border-left: 4px solid #3b82f6;
-  transition: transform 0.2s;
+ 
 }
 
-section.sintomas .grupo-sintomas:hover {
-  transform: translateY(-2px);
-}
+
 
 section.sintomas .grupo-sintomas h3 {
   color: #1e40af;
@@ -188,12 +183,10 @@ section.dicas .dica {
   padding: 2rem;
   border-radius: 10px;
   border-top: 4px solid #0ea5e9;
-  transition: transform 0.2s;
+
 }
 
-section.dicas .dica:hover {
-  transform: translateY(-2px);
-}
+
 
 section.dicas .dica h3 {
   color: #0c4a6e;
@@ -237,12 +230,10 @@ section.beneficios .beneficio {
   border-radius: 10px;
   text-align: center;
   border-top: 4px solid #0284c7;
-  transition: transform 0.2s;
+
 }
 
-section.beneficios .beneficio:hover {
-  transform: translateY(-2px);
-}
+
 
 section.beneficios .beneficio h3 {
   color: #0c4a6e;
@@ -352,11 +343,7 @@ section.rodape .redes-sociais a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s;
+
 }
 
-section.rodape .redes-sociais a:hover {
-  background-color: #2563eb;
-  transform: translateY(-2px);
-}
 
