@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--fonte-escrita);
+    font-family: var(--fonte-principal);
     font-size: 2.5rem;
     color: var(--cor-destaque);
     text-align: center;
